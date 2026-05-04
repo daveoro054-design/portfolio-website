@@ -1,0 +1,47 @@
+<!-- contact  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2 class="logo">My portfolio Website</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <h1>Contact Me</h1>
+
+  <!-- Use Formspree for real submissions -->
+  <form class="contact-form" action="https://formspree.io/f/xvzlgopy" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    <input type="hidden" name="_redirect" value="thankyou.html">
+    <button type="submit">Send</button>
+  </form>
+
+  <div class="contact-info">
+  <p>Email:<a href="mailto:daveoro054@gmail.com">daveoro054@gmail.com</a></p>
+   <p>Github:<a href="https://github.com/daveoro054-design" target="_blank">https://github.com/daveoro054-design</a></p>
+  </div>
+</div>
+ <footer>
+  <p>© 2026 Dawit | All Rights Reserved</p>
+ </footer>
+</body>
+</html>

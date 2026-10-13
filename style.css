@@ -66,6 +66,8 @@ body::before {
 .hero img {
   border-radius: 50%;
   transition: 0.4s;
+  width: 50%;
+  height: 50%;
 }
 
 .hero img:hover {
